@@ -2,6 +2,7 @@
   "use strict";
 
   var defaults;
+  console.log();
   
   var show = function(params) {
 
