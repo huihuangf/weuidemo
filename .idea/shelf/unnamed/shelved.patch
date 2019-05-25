@@ -1,0 +1,19 @@
+Index: tests/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- tests/index.html	(revision 5592aa9565fe7ae7ed5ec6b6300724c25ded06e7)
++++ tests/index.html	(revision )
+@@ -9,6 +9,11 @@
+   </head>
+   <body>
+   <div>add 1223456</div>
++  <div>add 1223456</div>
++  <div>add 1223456</div>
++  <div>add 1223456</div>
++  <div>add 1223456</div>
++  <div>add 1223456</div>
+     <div>test</div>
+     <div id="qunit"></div>
+     <div id="qunit-fixture"></div>

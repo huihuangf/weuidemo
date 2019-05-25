@@ -1,0 +1,34 @@
+Index: src/js/action.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/js/action.js	(date 1558800099000)
++++ src/js/action.js	(revision )
+@@ -2,8 +2,8 @@
+   "use strict";
+ 
+   var defaults;
+-  console.log();
++  console.log("test");
+-  
++
+   var show = function(params) {
+ 
+     var mask = $("<div class='weui-mask weui-actions_mask'></div>").appendTo(document.body);
+Index: tests/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- tests/index.html	(date 1558800099000)
++++ tests/index.html	(revision )
+@@ -8,7 +8,7 @@
+     <link rel="stylesheet" href="qunit/qunit-1.20.0.css">
+   </head>
+   <body>
+-  <div>add from remote</div>
++  <div>add new</div>
+   <div>add 1223456</div>
+   <div>add 1223456</div>
+   <div>add 1223456</div>
