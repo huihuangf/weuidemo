@@ -7,8 +7,8 @@
   var show = function(params) {
 
     var mask = $("<div class='weui-mask weui-actions_mask'></div>").appendTo(document.body);
-
-    var actions = params.actions || [];h
+    console.log('update code from action.js');
+    var actions = params.actions || [];
     var actionsHtml = actions.map(function(d, i) {
       return '<div class="weui-actionsheet__cell ' + (d.className || "") + '">' + d.text + '</div>';
     }).join("");

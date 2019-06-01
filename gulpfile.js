@@ -24,6 +24,7 @@ gulp.task('js', function(cb) {
   var end = function(){
     count ++;
     if(count >= 3) cb();
+    console.log('this is master code');
   };
 
   gulp.src([
