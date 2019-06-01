@@ -2,8 +2,8 @@
   "use strict";
 
   var defaults;
-  console.log();
-  
+  console.log("test");
+
   var show = function(params) {
 
     var mask = $("<div class='weui-mask weui-actions_mask'></div>").appendTo(document.body);
